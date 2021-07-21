@@ -1,6 +1,6 @@
 # berri-core
 
-Simple and modular self-hostable cloud for normal people.
+Modular and simple self-hosted cloud
 
 ## Installation
 
