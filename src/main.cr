@@ -5,7 +5,6 @@ require "sqlite3"
 require "granite"
 require "jwt"
 require "yaml"
-
 # Put any library requirements before these two lines
 require "./core-modules/*"
 require "./modules/*"
@@ -13,7 +12,7 @@ require "./modules/*"
 module Berri::Core
   VERSION = "0.1.0"
 
-  ENV["MIRA_SECRET_KEY"] ||= Random::Secure.urlsafe_base64(128)
+  ENV["BERRI_SECRET_KEY"] ||= Random::Secure.urlsafe_base64(128)
 
   class Application < Grip::Application
 
@@ -35,7 +34,7 @@ module Berri::Core
     end
   
     def port
-      6969
+      4560
     end
   
   end

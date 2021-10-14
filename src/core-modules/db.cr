@@ -15,7 +15,8 @@ class User < Granite::Base
     column id : Int64, primary: true
     column username : String
     column email : String
-    column real_name : String
+    column real_name : String?
+    column created_at : Time
     column password : String
 end
 

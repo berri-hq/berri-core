@@ -25,4 +25,4 @@ TODO: Write development instructions here
 ## Contributors
 
 - 🛸 [acoolstraw](https://github.com/acoolstraw) - creator and maintainer
-- 🐫 [SomeLoneCamel](https://github.com/somelonecamel) - creator and maintainer
+-  [Troplo](https://github.com/Troplo) - creator and maintainer

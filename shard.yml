@@ -1,11 +1,11 @@
-name: berri-core
+name: berri
 version: 0.1.0
 
 authors:
   - acoolstraw <acoolstraw@protonmail.com>
 
 targets:
-  berri-core:
+  berri:
     main: src/main.cr
 
 dependencies:
